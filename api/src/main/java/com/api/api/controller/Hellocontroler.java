@@ -10,7 +10,6 @@ public class Hellocontroler {
 
     @GetMapping("ola")
     public String hello(){
-      
         return "Olá Spring";  
     }
 }
